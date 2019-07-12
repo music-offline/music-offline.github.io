@@ -15,6 +15,23 @@
 
 }
 
+.imageWrapperPrivacy {					// Sets the background image in the header area
+	height: 115px;
+	background: 
+		linear-gradient(
+		rgba($image-overlay-color, $image-overlay-transparency), 
+		rgba($image-overlay-color, $image-overlay-transparency)
+		   ),
+		
+		url($header-image);
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	border-radius: 0px 0px 40px 40px;
+
+}
+
 .headerBackground {
 	height: 115px;
 	background-color: rgba($header-color, $header-transparency);
