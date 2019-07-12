@@ -32,6 +32,11 @@
 
 }
 
+.privacy-content {
+	width: 100%;
+	display: flex;
+}
+
 .headerBackground {
 	height: 115px;
 	background-color: rgba($header-color, $header-transparency);
